@@ -1,0 +1,62 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 194, 186, 0.9);
+}
+.header__profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header__profileImage {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header__profileName {
+    font-size: 4.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.header__profileJobType {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.header__profileSnsList {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+}
+.header__profileSnsList > * {
+    padding: 0 10px;
+}
+.header__profileSns {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    font-size: 2.0rem;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+.header__profileSns:hover {
+    color: #ffffff;
+    background-color: #333333;
+}

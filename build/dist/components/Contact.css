@@ -1,0 +1,18 @@
+.contact {
+    color: #ffffff;
+    padding: 100px 0;
+    background-color: #30BFBA;
+}
+.contact__title {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.contact__text {
+    text-align: center;
+}
+.contact__buttonContainer {
+    margin-top: 20px;
+    text-align: center;
+}
