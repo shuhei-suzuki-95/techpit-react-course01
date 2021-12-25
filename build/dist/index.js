@@ -1,6 +1,4 @@
-import React from "../_snowpack/pkg/react.js";
-import ReactDOM from "../_snowpack/pkg/react-dom.js";
-const App = () => {
-  return /* @__PURE__ */ React.createElement("div", null, "Hello world!");
-};
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App.js";
 ReactDOM.render(/* @__PURE__ */ React.createElement(App, null), document.getElementById("app"));
