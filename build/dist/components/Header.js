@@ -1,8 +1,8 @@
-import React from "react";
-import {FaTwitter, FaGithub} from "react-icons/fa";
-import "./Header.css";
-import CoverImage from "../assets/images/cover-image.jpg";
-import ProfileImage from "../assets/images/profile-image.png";
+import React from "../../_snowpack/pkg/react.js";
+import {FaTwitter, FaGithub} from "../../_snowpack/pkg/react-icons/fa.js";
+import "./Header.css.proxy.js";
+import CoverImage from "../assets/images/cover-image.jpg.proxy.js";
+import ProfileImage from "../assets/images/profile-image.png.proxy.js";
 const Header = () => {
   return /* @__PURE__ */ React.createElement("header", {
     className: "header",
