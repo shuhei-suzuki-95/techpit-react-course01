@@ -1,5 +1,5 @@
-import React from "react";
-import "./Contact.css";
+import React from "../../_snowpack/pkg/react.js";
+import "./Contact.css.proxy.js";
 const Contact = () => {
   return /* @__PURE__ */ React.createElement("div", {
     className: "contact"

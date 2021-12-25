@@ -1,8 +1,8 @@
-import React from "react";
-import Circle from "react-circle";
+import React from "../../_snowpack/pkg/react.js";
+import Circle from "../../_snowpack/pkg/react-circle.js";
 import {requestStates} from "../constants.js";
 import {useSkills} from "../customHooks/useSkills.js";
-import "./Skills.css";
+import "./Skills.css.proxy.js";
 const Skills = () => {
   const [sortedLanguageList, fetchRequestState, converseCountToPercentage] = useSkills();
   return /* @__PURE__ */ React.createElement("div", {

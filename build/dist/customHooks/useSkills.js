@@ -1,5 +1,5 @@
-import {useEffect, useReducer} from "react";
-import axios from "axios";
+import {useEffect, useReducer} from "../../_snowpack/pkg/react.js";
+import axios from "../../_snowpack/pkg/axios.js";
 import {skillReducer, initialState, actionTypes} from "../reducers/skillReducer.js";
 export const useSkills = () => {
   const [state, dispatch] = useReducer(skillReducer, initialState);
